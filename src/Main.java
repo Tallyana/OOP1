@@ -29,5 +29,18 @@ public class Main {
         human2.toSay();
         human3.toSay();
         human4.toSay();
+
+
+
+
+        Auto lada = new Auto("Lada", "Granta", 1.7, " металлик", 2015, "России");
+        Auto audi = new Auto("Audi", "A8 ", 3.0, "черный", 2020, "Германии");
+        Auto bmv = new Auto("BMV", "Z8", 3.0, "коричневый", 2021, "Германии");
+        Auto kia = new Auto("KIA", "Sportage", 2.4, "красный", 2018, "Южной Корее");
+        Auto hyundai = new Auto("Hyundai", "Avante", 1.6, "желтый", 2016, "Южной Корее");
+        Auto[] cars = {lada, audi, bmv, kia, hyundai};
+        for (Auto car: cars){
+            System.out.println(car);
+        }
     }
-}
+        }
